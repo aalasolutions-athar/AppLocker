@@ -75,7 +75,7 @@
         </activity>
 
         <activity-alias
-            android:name="com.twinone.locker.MainActivityAlias"
+            android:name="com.aalasolutions.apps.applocker.MainActivityAlias"
             android:enabled="true"
             android:label="@string/application_name"
             android:targetActivity=".ui.MainActivity" >
@@ -90,7 +90,9 @@
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
-
+        <activity
+            android:name="com.aalasolutions.apps.applocker.lock.ErrorDialog"
+            android:theme="@android:style/Theme.Dialog"/>
         <service android:name=".lock.AppLockService" />
         <service android:name=".lock.LockService" />
         <service android:name=".lock.HelperService" />
