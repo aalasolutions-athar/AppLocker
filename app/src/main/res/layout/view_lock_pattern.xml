@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.twinone.locker.lock.PatternView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.aalasolutions.apps.applocker.lock.PatternView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:patternview="http://schemas.android.com/apk/res-auto"
     android:id="@+id/patternView"
     android:layout_width="wrap_content"
@@ -7,4 +7,4 @@
 
     <!-- patternview:maxSize="@dimen/patternview_max_size" -->
 
-</org.twinone.locker.lock.PatternView>
+</com.aalasolutions.apps.applocker.lock.PatternView>

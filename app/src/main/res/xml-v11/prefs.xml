@@ -7,7 +7,7 @@
         android:title="@string/pref_tit_lock_type" />
 
     <ListPreference
-        android:background="@drawable/ic_launcher"
+        android:background="@mipmap/ic_launcher"
         android:entries="@array/pref_names_background"
         android:entryValues="@array/pref_values_background"
         android:key="@string/pref_key_background"

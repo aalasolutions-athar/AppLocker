@@ -32,7 +32,8 @@ import android.view.View.OnKeyListener;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import com.twinone.locker.R;
+import com.aalasolutions.apps.applocker.R;
+
 
 public abstract class PreferenceFragment extends Fragment implements
         PreferenceManagerCompat.OnPreferenceTreeClickListener {
